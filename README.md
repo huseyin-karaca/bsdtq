@@ -9,11 +9,11 @@ Bilkent University · *IEEE Signal Processing Letters*, **33**, 186–190, 2026
 [![Code Ocean DOI](https://img.shields.io/badge/Code%20Ocean-10.24433%2FCO.9409420.v1-23977f)](https://doi.org/10.24433/CO.9409420.v1)
 [![arXiv](https://img.shields.io/badge/arXiv-2509.12920-b31b1b)](https://arxiv.org/abs/2509.12920)
 
-**Learn the representation while learning the predictor.** BSDT-Q combines boosted soft decision trees with learnable linear feature transforms for sequential regression, with a focus on settings where training data is scarce and the feature space is large.
+BSDT-Q combines boosted soft decision trees with learnable linear feature transforms for sequential regression, with a focus on settings where training data is scarce and the feature space is large.
 
 [Paper](https://doi.org/10.1109/LSP.2025.3639345) · [Preprint](https://arxiv.org/abs/2509.12920) · [Reproduce on Code Ocean](https://codeocean.com/capsule/9934558/tree/v1) · [Project website](https://hkaraca.com/bsdtq/) · [Citation](#citation)
 
-![BSDT-Q architecture: input features pass through learnable transforms and differentiable trees, whose predictions are summed; gradients update the transforms and trees.](docs/assets/method.svg)
+![Sequential boosting in Algorithm 1: each stage fits a soft tree to the current residuals, updates the feature transform, and adds its prediction to the ensemble.](docs/assets/method.svg)
 
 ## Why BSDT-Q?
 

@@ -12,7 +12,7 @@ The capsule identity, authors, title, version, and destination were verified thr
 
 `BoostedSDTR` in `bsdtq.py` constructs K transform–tree blocks. Each block receives the original input through its own transform. The forward pass sums their predictions and regularizers. `_CustomLoss` adds prediction MSE to tree-routing and parameter penalties, and skorch trains the ensemble with a shared loss.
 
-The article's Algorithm 1 instead describes explicit stagewise residual fitting and updates of Q. There is no separate residual-fitting loop in this class, and the linear layers use PyTorch's default initialization rather than explicit identity initialization. The website's diagram represents the repository implementation. Avoid treating the code as a literal transcription of every step in Algorithm 1.
+The article's Algorithm 1 instead describes explicit stagewise residual fitting and updates of Q. There is no separate residual-fitting loop in this class, and the linear layers use PyTorch's default initialization rather than explicit identity initialization. The website's diagram represents the sequential training procedure in the article's Algorithm 1, rather than the jointly optimized additive implementation in this checkout. Avoid treating the code as a literal transcription of every step in Algorithm 1.
 
 Supported transform types are `identity`, `linear` (a square bias-free map), and `mlp`. The configurations select a linear transform for BSDT-Q, an MLP for BSDT-MLP, and an identity transform with one layer and one tree for SDT.
 

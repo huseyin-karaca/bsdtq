@@ -14,7 +14,7 @@ Open http://localhost:8000. The page supports narrow screens, keyboard navigatio
 | :--- | :--- |
 | `index.html` | Research narrative, resource links, published results table, article citation |
 | `assets/style.css` | Typography, colors, spacing, responsive layout |
-| `assets/method*.svg` | Original editable architecture diagrams; includes accessible title and description |
+| `assets/method*.svg` | Original editable diagrams of Algorithm 1; include accessible titles and descriptions |
 | `assets/site.js` | Baseline comparison and clipboard enhancement |
 | `assets/paper.bib` | Article and capsule BibTeX |
 | `data/results.csv` | Machine-readable transcription of published Table II |
