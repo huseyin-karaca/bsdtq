@@ -26,6 +26,6 @@ When editing results, update both the HTML table and CSV, plus the root README. 
 
 All asset and download paths are relative. Copy this directory's contents to the `/bsdtq/` route on hkaraca.com, or publish it as a GitHub Pages project site. The main `huseyin-karaca.github.io` Pages site already has the verified custom domain `hkaraca.com`; HIT-ASR confirms the project-site pattern. This project uses `https://hkaraca.com/bsdtq/`. No DNS change or project-level `CNAME` is needed.
 
-For GitHub Pages, enable **Settings → Pages → Source → GitHub Actions**, then manually run **Deploy research website** from the Actions tab. The workflow uploads only `docs/`. It does not publish the supplied reference PDF or Python research files. The PDF and article buttons point to publisher/preprint pages.
+For GitHub Pages, enable **Settings → Pages → Source → GitHub Actions**, then manually run **Deploy research website** from the Actions tab. The workflow uploads only `docs/`. It does not publish the supplied reference PDF or Python research files. The article button points to the published paper.
 
 The design uses the same Schibsted Grotesk / JetBrains Mono font pairing and blue/gray palette as HIT-ASR, with a lighter single-page structure for this paper. Deployment uses the repository’s GitHub Pages workflow and inherits the account’s existing custom domain.

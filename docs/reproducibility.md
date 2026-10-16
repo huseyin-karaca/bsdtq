@@ -4,7 +4,6 @@
 
 - **Article:** H. Karaca and S. S. Kozat, *IEEE Signal Processing Letters*, vol. 33, pp. 186–190, 2026. DOI: [10.1109/LSP.2025.3639345](https://doi.org/10.1109/LSP.2025.3639345).
 - **Archived software:** Code Ocean capsule **v1**, published 2025. DOI: [10.24433/CO.9409420.v1](https://doi.org/10.24433/CO.9409420.v1). [Open capsule](https://codeocean.com/capsule/9934558/tree/v1).
-- **Earlier preprint:** [arXiv:2509.12920v1](https://arxiv.org/abs/2509.12920v1). Its evaluation differs from the published article. In particular, it uses ETTh2; the article and `clean_ett.py` use ETTm2.
 
 The capsule identity, authors, title, version, and destination were verified through [DataCite](https://api.datacite.org/dois/10.24433/co.9409420.v1). The capsule interface returned HTTP 403 to automated access in this environment, so its file tree, dependency versions, execution instructions, and successful reproduction were not independently checked. Follow the capsule's own instructions when opening it interactively. A DOI identifies an archived release; it does not by itself establish that every output has been independently reproduced.
 

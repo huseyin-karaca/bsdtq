@@ -8,7 +8,7 @@ DOI: https://doi.org/10.1109/LSP.2025.3639345.
 Values are test mean squared error (lower is better), at the precision printed
 in the published table. These are reported paper results, not measurements
 produced during website development. M4 is the quarterly subset. ETTm2 is
-sampled every 15 minutes; do not substitute the ETTh2 results in arXiv v1.
+sampled every 15 minutes.
 The paper labels CatBoost as “Catboost” and BSDT-Q as “BSDT-Q (Ours)”; names
 are normalized here for display. Each dataset has its own target scale.
 

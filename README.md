@@ -7,11 +7,10 @@ Bilkent University · *IEEE Signal Processing Letters*, **33**, 186–190, 2026
 
 [![Paper DOI](https://img.shields.io/badge/Paper-10.1109%2FLSP.2025.3639345-3355d6)](https://doi.org/10.1109/LSP.2025.3639345)
 [![Code Ocean DOI](https://img.shields.io/badge/Code%20Ocean-10.24433%2FCO.9409420.v1-23977f)](https://doi.org/10.24433/CO.9409420.v1)
-[![arXiv](https://img.shields.io/badge/arXiv-2509.12920-b31b1b)](https://arxiv.org/abs/2509.12920)
 
 BSDT-Q combines boosted soft decision trees with learnable linear feature transforms for sequential regression, with a focus on settings where training data is scarce and the feature space is large.
 
-[Paper](https://doi.org/10.1109/LSP.2025.3639345) · [Preprint](https://arxiv.org/abs/2509.12920) · [Reproduce on Code Ocean](https://codeocean.com/capsule/9934558/tree/v1) · [Project website](https://hkaraca.com/bsdtq/) · [Citation](#citation)
+[Paper](https://doi.org/10.1109/LSP.2025.3639345) · [Reproduce on Code Ocean](https://codeocean.com/capsule/9934558/tree/v1) · [Project website](https://hkaraca.com/bsdtq/) · [Citation](#citation)
 
 ![Sequential boosting in Algorithm 1: each stage fits a soft tree to the current residuals, updates the feature transform, and adds its prediction to the ensemble.](docs/assets/method.svg)
 
@@ -41,7 +40,7 @@ Test MSE from **Table II of the published article**; lower is better. M4 denotes
 
 BSDT-Q has the lowest reported MSE on all five datasets, including both ablations. Each dataset uses its own target scale; compare models within a column. [Download CSV](docs/data/results.csv) · [Data provenance](docs/data/README.md).
 
-> **Version matters:** arXiv v1 contains an earlier evaluation with different numerical results and ETTh2 rather than ETTm2. The table above follows the published IEEE article.
+> The table above follows the published IEEE article and uses ETTm2.
 
 ## Reproduce the paper
 
