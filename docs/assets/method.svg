@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="510" viewBox="0 0 1000 510" role="img" aria-labelledby="title desc">
+<title id="title">BSDT-Q: learn the features and the trees together</title>
+<desc id="desc">An input feature vector feeds parallel learnable linear transforms Q1 through QK. Each transformed vector enters a soft decision tree. The tree outputs are added to form a prediction. A dashed arrow shows the differentiable loss sending gradients back to the transforms and trees. Schematic, not measured feature weights.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#6b7180"/></marker><marker id="blue" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#3355d6"/></marker></defs>
+<rect width="1000" height="510" rx="12" fill="#f6f7f9"/>
+<g font-family="Arial, sans-serif" fill="#1c2230">
+<text x="40" y="44" font-size="13" letter-spacing="2" fill="#6b7180">THE DIFFERENTIABLE PATH</text>
+<text x="40" y="80" font-size="24" font-weight="600">A better view of the same features.</text>
+<g fill="none" stroke="#a0a6b2" stroke-width="1.5" marker-end="url(#arrow)">
+<path d="M171 253H220V155H285"/><path d="M220 253H285"/><path d="M220 253V351H285"/>
+<path d="M410 155H480"/><path d="M410 253H480"/><path d="M410 351H480"/>
+<path d="M650 155H718V253H759"/><path d="M650 253H759"/><path d="M650 351H718V253"/><path d="M817 253H900"/>
+</g>
+<text x="52" y="197" font-size="16" font-weight="600">Input x</text>
+<g fill="#c9ccd3"><rect x="52" y="215" width="14" height="78" rx="3"/><rect x="73" y="215" width="14" height="78" rx="3"/><rect x="94" y="215" width="14" height="78" rx="3"/><rect x="115" y="215" width="14" height="78" rx="3"/><rect x="136" y="215" width="14" height="78" rx="3"/></g>
+<text x="52" y="320" font-size="13" fill="#6b7180">Lags, rolling</text><text x="52" y="339" font-size="13" fill="#6b7180">statistics, covariates</text>
+<g fill="#eef1fc" stroke="#a3b3ee"><rect x="285" y="121" width="125" height="68" rx="6"/><rect x="285" y="219" width="125" height="68" rx="6"/><rect x="285" y="317" width="125" height="68" rx="6"/></g>
+<g fill="#3355d6" font-size="26" text-anchor="middle"><text x="347" y="165">Q₁ x</text><text x="347" y="263">Q₂ x</text><text x="347" y="361">Qₖ x</text></g>
+<g stroke="#c9ccd3" fill="white"><rect x="480" y="121" width="170" height="68" rx="6"/><rect x="480" y="219" width="170" height="68" rx="6"/><rect x="480" y="317" width="170" height="68" rx="6"/></g>
+<g stroke="#3355d6" stroke-width="1.7" fill="#eef1fc"><path d="M512 140V151L498 170M512 151L526 170M512 238V249L498 268M512 249L526 268M512 336V347L498 366M512 347L526 366" fill="none"/><circle cx="512" cy="140" r="4"/><circle cx="512" cy="238" r="4"/><circle cx="512" cy="336" r="4"/></g>
+<g font-size="16"><text x="547" y="161">Soft tree 1</text><text x="547" y="259">Soft tree 2</text><text x="547" y="357">Soft tree K</text></g>
+<g fill="#6b7180" font-size="20"><text x="342" y="309">⋮</text><text x="558" y="309">⋮</text></g>
+<circle cx="788" cy="253" r="28" fill="#1c2230"/><text x="788" y="262" font-size="26" fill="white" text-anchor="middle">Σ</text>
+<text x="908" y="261" font-size="26" fill="#3355d6">ŷ</text>
+<text x="756" y="306" font-size="13" fill="#6b7180">Add predictions</text>
+<path d="M921 332V426H347V391" stroke="#3355d6" stroke-width="1.5" stroke-dasharray="6 5" fill="none" marker-end="url(#blue)"/>
+<text x="520" y="419" font-size="14" fill="#3355d6">Loss → gradients → transforms + trees</text>
+<text x="40" y="480" font-size="12" fill="#6b7180">Architecture schematic · additive transform–tree blocks in the repository implementation</text>
+</g></svg>

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the paper when using this research and cite the Code Ocean capsule for the archived software."
+title: "BSDT-Q: Soft Gradient Boosting with Learnable Feature Transforms"
+type: software
+authors:
+  - family-names: Karaca
+    given-names: Huseyin
+  - family-names: Kozat
+    given-names: Suleyman Serdar
+repository-code: "https://github.com/huseyin-karaca/bsdtq"
+url: "https://doi.org/10.24433/CO.9409420.v1"
+preferred-citation:
+  type: article
+  title: "Soft Gradient Boosting With Learnable Feature Transforms for Sequential Regression"
+  authors:
+    - family-names: Karaca
+      given-names: Huseyin
+    - family-names: Kozat
+      given-names: Suleyman Serdar
+  journal: "IEEE Signal Processing Letters"
+  volume: 33
+  start: 186
+  end: 190
+  year: 2026
+  doi: "10.1109/LSP.2025.3639345"

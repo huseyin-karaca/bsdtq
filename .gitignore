@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+all_eval_dfs.pkl
+all_dataset_stats.pkl
+all_hyperparams.pkl
+manuscript/table_figures/
+datasets/

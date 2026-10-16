@@ -1,0 +1,16 @@
+# Convenience environment for the repository scripts; not the archived paper lockfile.
+# Use the DOI-linked Code Ocean capsule for its preserved environment.
+torch
+numpy
+pandas
+skorch
+scikit-learn
+mlforecast
+utilsforecast
+datasetsforecast
+optuna
+statsmodels
+lightgbm
+xgboost
+catboost
+jinja2
